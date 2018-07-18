@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /test
+#wewewewedsfsd
+crawler:
+  pixiv:
+     url: http://www.pixiv.net/ranking.php?mode=daily
+  names:
+  - jetty
+  - tomcat
+  clothes:
+    url: red
+    color2: blue
+
