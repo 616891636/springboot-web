@@ -111,6 +111,14 @@
 					<groupId>org.springframework.boot</groupId>
 					<artifactId>spring-boot-maven-plugin</artifactId>
 				</plugin>
+			<!-- 支持maven打包自定义名字 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<configuration>
+					<warName>springboot-web</warName>
+				</configuration>
+			</plugin>
 		</plugins>
 </build>
 </project>
